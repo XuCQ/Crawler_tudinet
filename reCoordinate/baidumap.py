@@ -4,10 +4,8 @@ import json
 
 
 # key
-# o1EOCWVhKSQOr2V9GXsQ7zmI2KO8CSpP
-# wU3ZlXOKopbk78vjeZiSkDeo
 class xBaiduMap:
-    def __init__(self, key='wU3ZlXOKopbk78vjeZiSkDeo'):
+    def __init__(self, key='yourkeys'):
         self.host = 'http://api.map.baidu.com'
         self.path = '/geocoder/v2/?'
         self.param = {'address': None, 'output': 'json', 'ak': key, 'location': None, 'city': None}
